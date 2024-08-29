@@ -1,10 +1,10 @@
 # blackboxgeo.github.io
 Site structure v1:
 - Home
-Headline: Unearthing the future
-subheadline: advancing soil science and ecosystem health
-Text: "Blackbox is a leading research group dedicated to exploring the complexities of soil ecosystems. Our work spans global and regional scales, focusing on soil health, ecology, and risk assessment. With a commitment to innovative research and impactful results, we aim to provide crucial insights into soil monitoring and conservation efforts worldwide."
-CTA Button: "Join Our Research" (link to a form or to an email)
+  Headline: "Unearthing the future"
+  subheadline: "advancing soil science and ecosystem health"
+  Text: "Blackbox is a leading research group dedicated to exploring the complexities of soil ecosystems. Our work spans global and regional scales, focusing on soil health, ecology, and risk assessment. With a commitment to innovative research and impactful results, we aim to provide crucial insights into soil monitoring and conservation efforts worldwide."
+  CTA Button: "Join Our Research" (link to a form or to an email)
 
 - People
 - Research highlights
