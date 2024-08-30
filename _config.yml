@@ -1,0 +1,6 @@
+url: "https://blackbox.io"  # the base URL for your site
+baseurl: ""  # leave this blank unless you're hosting the site in a subdirectory
+
+# GitHub Pages settings
+github:
+  is_project_page: false
