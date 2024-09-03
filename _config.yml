@@ -22,8 +22,9 @@ title: Blackbox
 email: carlos.guerra@uc.pt
 description: >- # this means to ignore newlines until "baseurl:"
   This is Blackbox web research group
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+domain: https://blackboxgeo.github.io
+baseurl: "/blackbox.github.io/" # the subpath of your site, e.g. /blog
+url: "https://blackboxgeo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 theme: minima
@@ -38,12 +39,12 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
 #   - node_modules/
 #   - vendor/bundle/
 #   - vendor/cache/
