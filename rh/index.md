@@ -15,3 +15,8 @@ At Blackbox, you'll collaborate on groundbreaking projects, access cutting-edge 
 *2023*
 
 {% include publications year="2023" %}
+
+<br>
+<br>
+<br>
+<br>
