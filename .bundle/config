@@ -1,2 +1,2 @@
 ---
-BUNDLE_PATH: "~/blackbox.github.io/.bundle"
+BUNDLE_PATH: "vendor/bundle"
