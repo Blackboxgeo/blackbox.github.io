@@ -22,9 +22,9 @@ title: Blackbox
 email: carlos.guerra@uc.pt
 description: >- # this means to ignore newlines until "baseurl:"
   This is Blackbox web research group
-domain: https://blackboxgeo.github.io
-baseurl: "/blackbox.github.io/" # the subpath of your site, e.g. /blog
-url: "https://blackboxgeo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+domain: blackboxgeo.github.io
+baseurl: /blackbox.github.io/ # the subpath of your site, e.g. /blog
+url: https://blackboxgeo.github.io # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 theme: minima
