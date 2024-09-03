@@ -8,6 +8,9 @@ At Blackbox, you'll collaborate on groundbreaking projects, access cutting-edge 
 
 **Publications**
 
+{% include publications year="2024" %}
+
 **(After 2015)**
+
 
 
