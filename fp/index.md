@@ -65,7 +65,7 @@ In short, **SOLO** is all about understanding and improving soil health to ensur
 <br>
 <br>
 
-# **LUCASSoils**
+## **LUCASSoils**
 
 **LUCAS Soils** is a project by the European Union to *study and understand the health of soils across Europe*. The name stands for "Land Use and Coverage Area Frame Survey," but it focuses specifically on soils.
 What LUCAS Soils Does:
