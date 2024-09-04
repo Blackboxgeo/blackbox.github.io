@@ -12,7 +12,9 @@ layout: default
 What SoilBON Does:
 
 * **Monitors Soil Life**: SoilBON gathers data from all over the world to see what's living in the soil and how it changes over time.
+
 * **Shares Knowledge**: Scientists share this information to help understand how to keep soils healthy and productive.
+
 * **Supports the Planet**: Healthy soil supports food growth, clean water, and a stable climate.
 
 **The Goal**:
@@ -53,7 +55,9 @@ In short, **SoilReCon** is all about fixing damaged soils and protecting them fr
 What **SOLO** Does:
 
 * **Checks Soil Health**: SOLO studies soils across Europe to see how healthy they are and what problems they might have, like pollution or erosion.
+
 * **Spreads the Word**: It teaches people—like farmers, scientists, and government officials—why healthy soil is important for growing food, fighting climate change,  and protecting nature.
+
 * **Finds Solutions**: SOLO develops better ways to take care of soil, so it stays healthy and fertile.
 
 The Goal:
