@@ -5,7 +5,6 @@ layout: default
 
 # **Featured projects**
 <br>
-<br>
 ## **SoilBON**
 
 **SoilBON** is a global project focused on studying and *protecting* the living things in soil, like *tiny bugs, worms, fungi, and bacteria*. These soil organisms are really important because they help break down dead plants and animals, make soil healthier, help plants grow, and keep our environment clean.
