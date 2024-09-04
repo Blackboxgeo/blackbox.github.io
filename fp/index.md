@@ -37,3 +37,6 @@ The Goal:
 The goal of **SOLO** is to make sure Europe’s soils stay healthy so they can continue to support life, agriculture, and the environment.
 
 In short, **SOLO** is all about understanding and improving soil health to ensure a better future for everyone in Europe.
+
+<br>
+<br>
