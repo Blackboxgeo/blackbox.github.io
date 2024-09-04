@@ -1,13 +1,12 @@
 ---
 layout: default
 ---
-<div align="center">
-  # **Join a community of passionate researchers**
-  # **pushing the boundaries of soil science**
-
-  At Blackbox, you'll collaborate on groundbreaking projects, access cutting-edge resources, and contribute to research with global impact. Whether you're a student eager to make your mark or an established researcher looking to expand your horizons, Blackbox offers the opportunity to grow, innovate, and lead in this field.
-  
-  [![Get it on People](/blackbox.github.io/rh/people_v2.svg)](/blackbox.github.io/people)
+<div class="center-content">
+    <h1><strong>Join a community of passionate researchers pushing the boundaries of soil science</strong></h1>
+    <p>At Blackbox, you'll collaborate on groundbreaking projects, access cutting-edge resources, and contribute to research with global impact. Whether you're a student eager to make your mark or an established researcher looking to expand your horizons, Blackbox offers the opportunity to grow, innovate, and lead in this field.</p>
+    <a href="/blackbox.github.io/people">
+        <img src="/blackbox.github.io/rh/people_v2.svg" alt="Get it on People">
+    </a>
 </div>
 
 ## **Colaborations across the world**
