@@ -1,3 +1,7 @@
+---
+title: Teaching
+layout: default
+---
 hihi4
 
 goto form :
