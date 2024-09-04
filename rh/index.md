@@ -10,6 +10,8 @@ At Blackbox, you'll collaborate on groundbreaking projects, access cutting-edge 
 
 [![Featured projects] (https://gist.githubusercontent.com/cxmeel/0dbc95191f239b631c3874f4ccf114e2/raw/bb4634715f95ebb209b4e0bcdd4d2d98fe64c64c/x-compact.svg) ] (/blackbox.github.io/fp)
 
+[![Get it on SERVICE](https://gist.github.com/cxmeel/0dbc95191f239b631c3874f4ccf114e2/raw/x-compact.svg)](https://example.com)
+
 ## **Colaborations across the world**
 
 <!-- Add a container div with a class for better control -->
