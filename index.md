@@ -13,5 +13,3 @@ Blackbox is a leading research group dedicated to exploring the complexities of 
 
 <br>
 <br>
-<br>
-<br>
