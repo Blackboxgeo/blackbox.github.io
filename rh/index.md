@@ -46,7 +46,7 @@ At Blackbox, you'll collaborate on groundbreaking projects, access cutting-edge 
   marker3.bindPopup("<b>Coimbra!</b><br>I'm lazy to write.").openPopup();
 
   // Define the bounding box coordinates (Southwest and Northeast corners)
-  var bounds = [[-125.332031,-6.489983], [128.847656,54.977614]]; // Adjust coordinates as needed
+  var bounds = [[-40.580585,-155.742188], [77.273855,181.757813]]; // Adjust coordinates as needed
 
   // Create and add the bounding box to the map
   var boundingBox = L.rectangle(bounds, {color: "#ff7800", weight: 2}).addTo(map);
