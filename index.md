@@ -9,7 +9,7 @@ layout: default
 
 Blackbox is a leading research group dedicated to exploring the complexities of soil ecosystems. Our work spans global and regional scales, focusing on soil health, ecology, and risk assessment. With a commitment to innovative research and impactful results, we aim to provide crucial insights into soil monitoring and conservation efforts worldwide.
 
-<a href = "https://example.1">Join Our Research</a>
+[![Join Our Research] (https://svgsilh.com/svg/1692268.svg) ] (https://example.com)
 
 <br>
 <br>

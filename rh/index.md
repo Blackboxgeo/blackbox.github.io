@@ -6,9 +6,9 @@ layout: default
 
 At Blackbox, you'll collaborate on groundbreaking projects, access cutting-edge resources, and contribute to research with global impact. Whether you're a student eager to make your mark or an established researcher looking to expand your horizons, Blackbox offers the opportunity to grow, innovate, and lead in this field.
 
-[People](/blackbox.github.io/people)
+[![People] (https://static.vecteezy.com/system/resources/previews/030/770/071/large_2x/back-arrow-icon-return-arrow-simple-for-app-advertising-web-banner-button-ui-ux-interface-element-isolated-on-white-background-vector.jpg) ] (/blackbox.github.io/people)
 
-[Featured projects](/blackbox.github.io/fp)
+[![Featured projects] (https://static.vecteezy.com/system/resources/previews/030/770/071/large_2x/back-arrow-icon-return-arrow-simple-for-app-advertising-web-banner-button-ui-ux-interface-element-isolated-on-white-background-vector.jpg) ] (/blackbox.github.io/fp)
 
 ## **Colaborations across the world**
 
