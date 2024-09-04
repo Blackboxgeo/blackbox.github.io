@@ -9,10 +9,15 @@ At Blackbox, you'll collaborate on groundbreaking projects, access cutting-edge 
 
 ## **Colaborations across the world**
 
-<div id="map" style="height: 500px;"></div>
+<!-- Add a container div with a class for better control -->
+<div class="map-container">
+  <!-- The map div where Leaflet will render the map -->
+  <div id="map" style="height: 500px;"></div>
+</div>
 
-<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<!-- Leaflet CSS and JS -->
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 
 <script>
   // Initialize the map centered on a specific location
@@ -30,21 +35,15 @@ At Blackbox, you'll collaborate on groundbreaking projects, access cutting-edge 
       L.geoJSON(data).addTo(map);
     });
 
-  // Add a marker to the map at a specific location
-  var marker = L.marker([37.7749, -122.4194]).addTo(map); // Example: San Francisco coordinates
+  // Add markers and popups
+  var marker1 = L.marker([37.7749, -122.4194]).addTo(map); // San Francisco
+  marker1.bindPopup("<b>Carlos!</b><br>https://en.wikipedia.org/wiki/San_Francisco").openPopup();
 
-  // Optional: Add a popup to the marker
-  marker.bindPopup("<b>Carlos!</b><br>https://en.wikipedia.org/wiki/San_Francisco").openPopup();
+  var marker2 = L.marker([39.557191, -7.8536599]).addTo(map); // Portugal
+  marker2.bindPopup("<b>Portugal!</b><br>https://en.wikipedia.org/wiki/Portugal").openPopup();
 
-  var marker = L.marker([39.557191, -7.8536599]).addTo(map); // Example: Portugal coordinates
-
-  // Optional: Add a popup to the marker
-  marker.bindPopup("<b>Portugal!</b><br>https://en.wikipedia.org/wiki/Portugal").openPopup();
-
-  var marker = L.marker([40.21119, -8.42946]).addTo(map); // Example: Coimbra coordinates
-
-  // Optional: Add a popup to the marker
-  marker.bindPopup("<b>Coimbra!</b><br>Im lazy to write.").openPopup();
+  var marker3 = L.marker([40.21119, -8.42946]).addTo(map); // Coimbra
+  marker3.bindPopup("<b>Coimbra!</b><br>I'm lazy to write.").openPopup();
 </script>
 
 
