@@ -1,4 +1,5 @@
 ---
+title: Research Hightlights
 layout: default
 ---
 <div class="center-content">

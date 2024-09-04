@@ -8,11 +8,10 @@
     <title>Blackbox</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
     <style>
-
         body {
             font-family: Arial, sans-serif;
             margin: 10;
-             padding: 5;
+            padding: 5;
             background-color: #f4f4f4;
             color: #333;
         }
@@ -21,8 +20,6 @@
             font-size: 2em;
         }
 
-        
-        
         header {
             background-color: #333;
             color: white;
@@ -72,24 +69,24 @@
             align-items: center;
             justify-content: center;
             text-align: center;
-            height: 10px 0; /* Adjusts the height of the container to full viewport height */
+            height: 10px 0;
             padding: 5px;
         }
 
         .map-container {
-            flex: 1; /* Allow the map container to grow and fill space */
+            flex: 1;
             position: relative;
-            z-index: 0; /* Map should have a lower z-index than the footer */
-            height: 300px; /* Set your desired height */
-            width: 100%; /* Full width of the parent */
-            overflow: hidden; /* Hide any overflow if needed */
+            z-index: 0;
+            height: 300px;
+            width: 100%;
+            overflow: hidden;
         }
 
         footer {
-            display: flex;                  /* Use Flexbox */
-            justify-content: center;        /* Center horizontally */
-            align-items: center;            /* Center vertically */
-            text-align: center;             /* Center text in case of multiple lines */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
             padding: 5px;
             background-color: #333;
             color: white;
@@ -99,11 +96,53 @@
             bottom: 0;
             z-index: 10;
         }
+
+        /* Form styling */
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        form label {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        form input, form textarea {
+            width: 100%;
+            max-width: 500px;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 1em;
+        }
+
+        form button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+
+        form button:hover {
+            background-color: #007bff;
+        }
     </style>
+    <!-- Include Google reCAPTCHA script -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body>
     <header>
-        <img src="logo_white.png">
+        <img src="logo_white.png" alt="Blackbox Logo">
     </header>
     
     <nav>
@@ -117,7 +156,25 @@
     </nav>
     
     <div class="content">
-        {{ .content}}
+        <a href="/blackbox.github.io/teaching">Go Back</a>
+        <!-- Form content -->
+        <h2>Contact Us</h2>
+        <form action="https://formspree.io/f/movabwky" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" maxlength="500" required></textarea>
+
+            <!-- Google reCAPTCHA widget -->
+            <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>
+            <br>
+
+            <button type="submit">Submit</button>
+        </form>
     </div>
 
     <footer>
@@ -125,4 +182,3 @@
     </footer>
 </body>
 </html>
-

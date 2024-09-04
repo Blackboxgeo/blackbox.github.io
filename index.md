@@ -3,14 +3,13 @@ title: Home
 layout: default
 ---
 
-**Unearthing the future**
-
-**Advancing soil science and ecosystem health**
-
-Blackbox is a leading research group dedicated to exploring the complexities of soil ecosystems. Our work spans global and regional scales, focusing on soil health, ecology, and risk assessment. With a commitment to innovative research and impactful results, we aim to provide crucial insights into soil monitoring and conservation efforts worldwide.
-
-[![Get it on SERVICE](https://gist.github.com/cxmeel/0dbc95191f239b631c3874f4ccf114e2/raw/x-compact.svg)](https://example.com)
-[![Join Our Research] (https://svgsilh.com/svg/1692268.svg) ] (https://example.com)
+<div class="center-content">
+    <h1><strong>Unearthing the future<br>Advancing soil science and ecosystem health</strong></h1>
+    <p>Blackbox is a leading research group dedicated to exploring the complexities of soil ecosystems. Our work spans global and regional scales, focusing on soil health, ecology, and risk assessment. With a commitment to innovative research and impactful results, we aim to provide crucial insights into soil monitoring and conservation efforts worldwide.</p>
+    <a href="/blackbox.github.io/people">
+        <img src="/blackbox.github.io/rh/people_v2.svg" alt="Get it on People">
+    </a>
+</div>
 
 <br>
 <br>
