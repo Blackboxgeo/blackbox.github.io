@@ -66,10 +66,13 @@
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
         }
 
-        #map-container {
+        .map-container {
             flex: 1; /* Allow the map container to grow and fill space */
             position: relative;
-            z-index: 1; /* Map should have a lower z-index than the footer */
+            z-index: 0; /* Map should have a lower z-index than the footer */
+            height: 200px; /* Set your desired height */
+            width: 100%; /* Full width of the parent */
+            overflow: hidden; /* Hide any overflow if needed */
         }
 
         footer {
@@ -84,6 +87,7 @@
             height: 30px;
             position: fixed;
             bottom: 0;
+            z-index: 10;
         }
 
         #map {
