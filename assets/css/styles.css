@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 10;
-    padding: 5;
+    /* padding: 5; */
     background-color: #f4f4f4;
     color: #333;
 }
@@ -9,7 +9,7 @@ body {
 header {
     background-color: #333;
     color: white;
-    padding: 10px 0;
+    /* padding: 10px 0; */
     text-align: center;
     overflow: hidden;
 }
