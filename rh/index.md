@@ -21,7 +21,7 @@ At Blackbox, you'll collaborate on groundbreaking projects, access cutting-edge 
 
 <script>
   // Initialize the map centered on a specific location
-  var map = L.map('map').setView([37.7749, -122.4194], 10); // Example: San Francisco coordinates
+  var map = L.map('map').setView([37.579413, 13.007813], 100); // Example: San Francisco coordinates
 
   // Add OpenStreetMap tiles to the map
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -45,15 +45,6 @@ At Blackbox, you'll collaborate on groundbreaking projects, access cutting-edge 
   var marker3 = L.marker([40.21119, -8.42946]).addTo(map); // Coimbra
   marker3.bindPopup("<b>Coimbra!</b><br>I'm lazy to write.").openPopup();
 
-  // Define the bounding box coordinates (Southwest and Northeast corners)
-  var bounds = [[-40.580585,-155.742188], [77.273855,181.757813]]; // Adjust coordinates as needed
-
-  // Create and add the bounding box to the map
-  var boundingBox = L.rectangle(bounds, {color: "#ff7800", weight: 2}).addTo(map);
-  boundingBox.bindPopup("<b>Bounding Box Area</b>");
-
-  // Optionally, adjust the map view to fit the bounding box
-  map.fitBounds(bounds);
 </script>
 
 <footer>
