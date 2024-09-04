@@ -20,6 +20,8 @@ At Blackbox, you'll collaborate on groundbreaking projects, access cutting-edge 
 <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 
 <script>
+  // Initialize the map centered in the middle of the Atlantic Ocean with a zoomed-out view
+  var map = L.map('map').setView([14.5994, -28.6731], 3); // Coordinates in the middle of the Atlantic with a low zoom level (3)
 
   // Add OpenStreetMap tiles to the map
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -42,17 +44,7 @@ At Blackbox, you'll collaborate on groundbreaking projects, access cutting-edge 
 
   var marker3 = L.marker([40.21119, -8.42946]).addTo(map); // Coimbra
   marker3.bindPopup("<b>Coimbra!</b><br>I'm lazy to write.").openPopup();
-
-    // Initialize the map centered on a specific location
-  var map = L.map('map').setView([37.579413, 13.007813], 1); // Example: San Francisco coordinates
-
-
 </script>
-
-<footer>
-  Your footer content
-</footer>
-
 
 ## **Publications**
 
