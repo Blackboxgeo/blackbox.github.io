@@ -8,7 +8,7 @@ At Blackbox, you'll collaborate on groundbreaking projects, access cutting-edge 
 
 [![People] (https://static.vecteezy.com/system/resources/previews/030/770/071/large_2x/back-arrow-icon-return-arrow-simple-for-app-advertising-web-banner-button-ui-ux-interface-element-isolated-on-white-background-vector.jpg) ] (/blackbox.github.io/people)
 
-[![Featured projects] (https://static.vecteezy.com/system/resources/previews/030/770/071/large_2x/back-arrow-icon-return-arrow-simple-for-app-advertising-web-banner-button-ui-ux-interface-element-isolated-on-white-background-vector.jpg) ] (/blackbox.github.io/fp)
+[![Featured projects] (https://gist.githubusercontent.com/cxmeel/0dbc95191f239b631c3874f4ccf114e2/raw/bb4634715f95ebb209b4e0bcdd4d2d98fe64c64c/x-compact.svg) ] (/blackbox.github.io/fp)
 
 ## **Colaborations across the world**
 
