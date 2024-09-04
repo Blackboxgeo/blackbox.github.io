@@ -6,7 +6,10 @@ layout: default
     <h1><strong>Join a community of passionate researchers<br>pushing the boundaries of soil science</strong></h1>
     <p>At Blackbox, you'll collaborate on groundbreaking projects, access cutting-edge resources, and contribute to research with global impact. Whether you're a student eager to make your mark or an established researcher looking to expand your horizons, Blackbox offers the opportunity to grow, innovate, and lead in this field.</p>
     <a href="/blackbox.github.io/people">
-        <img src="/blackbox.github.io/rh/people_v2.svg" alt="Get it on People">
+        <img src="/blackbox.github.io/rh/people_v2.svg" alt="People">
+    </a>
+    <a href="/blackbox.github.io/fp">
+        <img src="/blackbox.github.io/rh/feat_proj.svg" alt="Featured Projects">
     </a>
 </div>
 
