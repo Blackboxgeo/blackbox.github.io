@@ -6,13 +6,8 @@ layout: default
 
 At Blackbox, you'll collaborate on groundbreaking projects, access cutting-edge resources, and contribute to research with global impact. Whether you're a student eager to make your mark or an established researcher looking to expand your horizons, Blackbox offers the opportunity to grow, innovate, and lead in this field.
 
-[![People] (https://static.vecteezy.com/system/resources/previews/030/770/071/large_2x/back-arrow-icon-return-arrow-simple-for-app-advertising-web-banner-button-ui-ux-interface-element-isolated-on-white-background-vector.jpg) ] (/blackbox.github.io/people)
 
-[![Featured projects] (https://gist.githubusercontent.com/cxmeel/0dbc95191f239b631c3874f4ccf114e2/raw/bb4634715f95ebb209b4e0bcdd4d2d98fe64c64c/x-compact.svg) ] (/blackbox.github.io/fp)
-
-[![Get it on SERVICE](https://gist.github.com/cxmeel/0dbc95191f239b631c3874f4ccf114e2/raw/x-compact.svg)](https://example.com)
-
-[<kbd> <br> Teste <br> </kbd>] [www.soilbon.org]
+[![Get it on People](people_plain.svg)](/blackbox.github.io/people)
 
 ## **Colaborations across the world**
 
