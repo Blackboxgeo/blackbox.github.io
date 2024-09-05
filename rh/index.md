@@ -7,6 +7,11 @@ layout: default
     <p>At Blackbox, you'll collaborate on groundbreaking projects, access cutting-edge resources, and contribute to research with global impact. Whether you're a student eager to make your mark or an established researcher looking to expand your horizons, Blackbox offers the opportunity to grow, innovate, and lead in this field.</p>
     <br>    
     <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <a href="/blackbox.github.io/people">
         <img src="/blackbox.github.io/rh/people_v2.svg" alt="People">
     </a>
