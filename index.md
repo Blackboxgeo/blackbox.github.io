@@ -11,6 +11,4 @@ layout: default
         <img src="/blackbox.github.io/join_button.svg" alt="Get it on Join">
     </a>
 </div>
-
-<br>
 <br>
