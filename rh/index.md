@@ -12,9 +12,9 @@ layout: default
     <a href="/blackbox.github.io/fp">
         <img src="/blackbox.github.io/rh/feat_proj.svg" alt="Featured Projects">
     </a>
-    <br>
-    <br>
 </div>
+
+<br>
 
 ## **Colaborations across the world**
 
