@@ -106,10 +106,10 @@ layout: default
             margin: 0; 
         }
         .subscribe { 
-            background: #007BFF; 
-            color: white; 
+            background-color: white; 
+            color: black; 
             padding: 10px; 
-            text-align: center; 
+            text-align: left; 
             border-radius: 5px; 
             margin-top: 20px; 
         }
@@ -159,8 +159,8 @@ layout: default
     <h2>Subscribe</h2>
     <p>Stay updated on the latest episodes!</p>
     <div class="subscribe">
-    <a href="https://open.spotify.com/show/5ua24CqqEp2DS9mm2HS2fD?si=WSoRQLL5Qh-UWvM146DqPA">Spotify</a>
-    <a href="https://solidscience.podcaster.de/solidscience.rss">RSS Feed</a>
+        <a href="https://open.spotify.com/show/5ua24CqqEp2DS9mm2HS2fD?si=WSoRQLL5Qh-UWvM146DqPA">Spotify</a>
+        <a href="https://solidscience.podcaster.de/solidscience.rss">RSS Feed</a>
     </div>
 </section>
 
@@ -171,3 +171,5 @@ layout: default
 
 </body>
 </html>
+
+
