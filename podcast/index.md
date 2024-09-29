@@ -170,6 +170,9 @@ layout: default
     <p>Have questions, feedback, or suggestions? Speak to us at <a href="mailto:carlos.guerra@fl.uc.pt">carlos.guerra@fl.uc.pt</a>.</p>
 </section>
 
+<br>
+<br>
+
 </body>
 </html>
 
