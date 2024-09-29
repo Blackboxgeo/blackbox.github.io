@@ -127,7 +127,6 @@ layout: default
 
 <header>
     <h1>Soilid Science</h1>
-    <img src="link_to_your_cover_image.jpg" alt="Podcast Cover" style="max-width: 200px; border-radius: 10px;">
 </header>
 
 <section>
