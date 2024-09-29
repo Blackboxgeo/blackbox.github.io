@@ -160,6 +160,7 @@ layout: default
     <p>Stay updated on the latest episodes!</p>
     <div class="subscribe">
         <a href="https://open.spotify.com/show/5ua24CqqEp2DS9mm2HS2fD?si=WSoRQLL5Qh-UWvM146DqPA">Spotify</a>
+        <br>
         <a href="https://solidscience.podcaster.de/solidscience.rss">RSS Feed</a>
     </div>
 </section>
