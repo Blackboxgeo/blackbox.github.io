@@ -8,7 +8,7 @@ layout: default
     <p>Blackbox is a leading research group dedicated to exploring the complexities of soil ecosystems. Our work spans global and regional scales, focusing on soil health, ecology, and risk assessment. With a commitment to innovative research and impactful results, we aim to provide crucial insights into soil monitoring and conservation efforts worldwide.</p>
     <br>
     <a href="/blackbox.github.io/people">
-        <img src="/blackbox.github.io/join_button.svg" alt="Get it on Join">
+        <img src="/blackbox.github.io/assets/images/img/join_button.svg" alt="Get it on Join">
     </a>
 </div>
 <br>
