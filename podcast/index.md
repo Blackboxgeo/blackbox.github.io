@@ -126,7 +126,7 @@ layout: default
 <body>
 
 <header>
-    <h1>Soilid Science</h1>
+    <h1>So(i)lid Science</h1>
 </header>
 
 <section>
@@ -152,6 +152,12 @@ layout: default
         <p><strong>Release Date:</strong> 2023-05</p>
         <p><a href="link_to_episode_3">Listen Now</a></p>
         <p><em>We invited Madhav (Maddy) Thakur to talk with us about "Ecological Theory across Disciplines".</em></p>
+    </div>
+    <div class="episode">
+        <h3>Episode 4: Syntesizing Zombie Data</h3>
+        <p><strong>Release Date:</strong> 2023-06</p>
+        <p><a href="link_to_episode_3">Listen Now</a></p>
+        <p><em>We invited Jérome Mathieu to talk with us about „Synthesizing Zombie Data„. We talk about his current work on a soil fauna database, about how this project started at his institute and about related ongoing and future projects.</em></p>
     </div>
 </section>
 
