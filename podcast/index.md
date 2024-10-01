@@ -138,31 +138,31 @@ layout: default
     <div class="episode">
         <h3>Episode 1: Women in Soil Ecology</h3>
         <p><strong>Release Date:</strong> 2023-04</p>
-        <p><a href="link_to_episode_1">Listen Now</a></p>
+        <p><a href="WISE.mp3">Listen Now</a></p>
         <p><em>We invited Franciska de Vries to talk with us about "Women in Soil Ecology".</em></p>
     </div>
     <div class="episode">
         <h3>Episode 2: The Lost Art of Taxonomy</h3>
         <p><strong>Release Date:</strong> 2023-04</p>
-        <p><a href="link_to_episode_2">Listen Now</a></p>
+        <p><a href="WISE.mp3">Listen Now</a></p>
         <p><em>We invited Zoe Lindo and Toke Høye to talk with us about "The Lost Art of Taxonomy". We are especially interested in the role of both, taxonomists and machine learning approaches, how they do and will interact, and what is needed today and in the future to fulfill the demands and develop new approaches.</em></p>
     </div>
     <div class="episode">
         <h3>Episode 3: Ecological Theory across Disiplines</h3>
         <p><strong>Release Date:</strong> 2023-05</p>
-        <p><a href="link_to_episode_3">Listen Now</a></p>
+        <p><a href="WISE.mp3">Listen Now</a></p>
         <p><em>We invited Madhav (Maddy) Thakur to talk with us about "Ecological Theory across Disciplines".</em></p>
     </div>
     <div class="episode">
         <h3>Episode 4: Syntesizing Zombie Data</h3>
         <p><strong>Release Date:</strong> 2023-06</p>
-        <p><a href="link_to_episode_3">Listen Now</a></p>
+        <p><a href="WISE.mp3">Listen Now</a></p>
         <p><em>We invited Jérome Mathieu to talk with us about „Synthesizing Zombie Data„. We talk about his current work on a soil fauna database, about how this project started at his institute and about related ongoing and future projects.</em></p>
     </div>
 </section>
 
 <section>
-    <h2>Subscribe</h2>
+    <h2>Subscribe</h2>  
     <p>Stay updated on the latest episodes!</p>
     <div class="subscribe">
         <a href="https://open.spotify.com/show/5ua24CqqEp2DS9mm2HS2fD?si=WSoRQLL5Qh-UWvM146DqPA">Spotify</a>
@@ -173,7 +173,7 @@ layout: default
 
 <section>
     <h2>Contact</h2>
-    <p>Have questions, feedback, or suggestions? Speak to us at <a href="mailto:carlos.guerra@fl.uc.pt">carlos.guerra@fl.uc.pt</a>.</p>
+    <p>Have questions, feedback, or suggestions? Contact us in <a href="mailto:carlos.guerra@fl.uc.pt">carlos.guerra@fl.uc.pt</a>.</p>
 </section>
 
 <br>
