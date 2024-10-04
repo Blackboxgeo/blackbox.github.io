@@ -136,6 +136,12 @@
         form button:hover {
             background-color: #007bff;
         }
+
+        .dropdownmenu {
+            box-shadow: #ddd;
+            outline-width: 1mm;
+            outline-color: #333;
+        }
     </style>
     <!-- Include Google reCAPTCHA script -->
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
@@ -166,14 +172,15 @@
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
     
-            <label for="subject">Subject:</label>
-            <select id="subject" name="subject" required>
-                <option value="" disabled selected>Select a subject</option>
-                <option value="master_tesis_proposal">Master Tesis proposal</option>
-                <option value="phd_thesis_proposal">PhD Thesis proposal</option>
-                <option value="os">Other Subjects</option>
-            </select>
-    
+            <div class="dropdownmenu">
+                <label for="subject">Subject:</label>
+                <select id="subject" name="subject" required>
+                    <option value="" disabled selected>Select a subject</option>
+                    <option value="master_tesis_proposal">Master Tesis proposal</option>
+                    <option value="phd_thesis_proposal">PhD Thesis proposal</option>
+                    <option value="os">Other Subjects</option>
+                </select>
+            </div>
             <label for="message">Message:</label>
             <textarea id="message" name="message" maxlength="500" required></textarea>
     
