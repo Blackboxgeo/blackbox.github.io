@@ -138,7 +138,7 @@ layout: default
     <div class="episode">
         <h3>Episode 1: Women in Soil Ecology</h3>
         <p><strong>Release Date:</strong> 2023-04</p>
-        <p><a href="WISE.mp3">Listen Now</a></p>
+        <p><a href="https://solidscience.podcaster.de/solidscience/media/-01_Women_in_soil_ecology(1).mp3">Listen Now</a></p>
         <p><em>We invited Franciska de Vries to talk with us about "Women in Soil Ecology".</em></p>
     </div>
     <div class="episode">
