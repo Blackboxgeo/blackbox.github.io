@@ -2,6 +2,6 @@ To do:
 	1. YouTube link (/teaching/index.md) ??
 	2. Form:
 		1. Google ReCaptcha
-		2. Put a better design in the layout of the dropdow menu
+		2. Put a better design in the layout of the dropdow menu -
 	3. People:
 		1. Use a layout like this one: https://www.med.uevora.pt/profile/127/
