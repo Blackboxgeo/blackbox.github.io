@@ -4,7 +4,7 @@ layout: default
 ---
 hihi4
 
-[![] (https://youtube.com/@blackboxgeo)
+[![/blackbox.github.io/assets/images/blaxblox.svg](https://youtube.com/@blackboxgeo)]
 
 goto form :
 
