@@ -108,78 +108,17 @@
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
         }
 
-        .cabecalho.perfil-bg1 {
-            background: #000000;
+        .circle-image {
+            width: 150px; /* Set width */
+            height: 150px; /* Set height */
+            border-radius: 50%; /* Makes it circular */
+            object-fit: cover; /* Ensures the image covers the entire circle */
+            display: block;        /* Make the image a block element */
+            margin: 0 auto;       /* Center horizontally */
+            max-width: 100%;      /* Responsive */
+            height: auto;         /* Maintain aspect ratio */
         }
 
-        .cabecalho {
-            background: #a0cb00;
-        }
-
-        .et_pb_section {
-            position: relative;
-            background-color: #fff;
-            background-position: 50%;
-            background-size: cover;
-        }
-
-        .et_pb_all_tabs, .et_pb_module, .et_pb_posts_nav a, .et_pb_tab, .et_pb_with_background {
-            position: relative;
-            background-size: cover;
-            background-position: 50%;
-            background-repeat: no-repeat;
-        }
-
-        a, abbr, acronym, address, applet, b, big, blockquote, body, center, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, tt, u, ul {
-            margin: 0;
-            padding: 0;
-            border: 0;
-            outline: 0;
-            font-size: 100%;
-            vertical-align: baseline;
-            background: transparent;
-        }
-
-        blockquote, dd, div, dl, dt, form, h1, h2, h3, h4, h5, h6, li, ol, p, pre, td, th, ul {
-            margin: 0;
-            padding: 0;
-        }
-
-        * {
-            box-sizing: border-box;
-        }
-
-        html {
-            font-size: 100%;
-            font-family: sans-serif;
-            line-height: 1.15;
-        }
-
-        .cabecalho.perfil-bg1::before {
-            content: "";
-            background: #000000 url(/wp-content/themes/dbase/images/herdade_da_mitra.jpg);
-            background-size: cover;
-            background-position: 50% 40%;
-            position: absolute;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            left: 0;
-            opacity: 0.2;
-        }
-
-        /* Media Queries */
-        @media only screen and (min-width: 981px) {
-            .et_pb_section {
-                padding: 3% 0;
-            }
-        }
-
-        @media (min-width: 981px) {
-            .et_pb_section {
-                padding: 4% 0;
-            }
-        }
     </style>
 </head>
 <body>
@@ -199,26 +138,7 @@
     </nav>
     
     <div class="content">
-        <div class="et_pb_section cabecalho perfil-bg1">
-            <div class="et_pb_row">
-                <div class="et_pb_column et_pb_column_4_4">
-                    <div class="et_pb_module et_pb_image profilePhoto">
-                        <span class="et_pb_image_wrap"><img src="/blackbox.github.io/assets/images/img/cg.svg" class="mask" alt="Carlos Antonio Bastos de Morais Guerra"></span>
-                    </div>
-                    <h3 class="membro">Maria Teresa Amado Pinto Correia</h3>
-                    <h5 class="grupoinvestigacao desktop">Landscape Dynamics and Management, Integrated in MED</h5>
-                    <h5 class="grupoinvestigacao mobile">Landscape Dynamics and Management<br>Integrated in MED</h5>
-                </div>
-            </div>
-            <div class="et_pb_row headBtns">
-                <div class="et_pb_column et_pb_column_1_2">
-                    <div class="headBtn"><a href="mailto:%6dt%70%63@uevora.pt" target="_blank"><span>E-MAIL</span></a></div>
-                </div>
-                <div class="et_pb_column et_pb_column_1_2">
-                    <div class="headBtn"><a href="https://www.cienciavitae.pt/portal/D810-3DE8-0AA0" target="_blank"><img src="/wp-content/themes/dbase/images/cienciavitae.png" style="height:15px" alt="CiênciaVitae"></a></div>
-                </div>
-            </div>
-        </div>
+        <img src="/home/uftw/blackbox.github.io/assets/images/img/cg.svg" alt="Carlos A. Guerra Image" class="circle-image"> </img>
     </div>
 
     <footer>
