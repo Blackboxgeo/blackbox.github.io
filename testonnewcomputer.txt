@@ -1,5 +1,11 @@
 To do:
-	2. Form:
+	1. Form:
 		1. Google ReCaptcha
-	3. People:
-		1. Use a layout like this one: https://www.med.uevora.pt/profile/127/
+	2. Images:
+		1. Correct in the general
+		2. Correct in People
+	3. Podcast
+		1. Add mp3's
+
+IMPORTANT!!:
+	Correct borders
