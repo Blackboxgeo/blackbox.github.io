@@ -8,17 +8,11 @@
     <title>Blackbox</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
     <style>
-        /* Apply box-sizing globally */
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
 
         body {
             font-family: Arial, sans-serif;
-            margin: 0; /* Reset the body's margin */
-            padding: 0; /* Reset the body's padding */
+            margin: 10;
+             padding: 5;
             background-color: #f4f4f4;
             color: #333;
         }
@@ -41,6 +35,7 @@
             color: white;
             padding: 10px 0;
             text-align: center;
+            overflow: show;
         }
         
         header h1 {
@@ -49,8 +44,12 @@
         }
 
         header img {
+            flex: 1;
+            float: center;
+            width: 118px;
+            height: 49px;
             max-width: 100%;
-            height: auto;
+            max-height: 100%;
             background: #333;
         }
         
@@ -83,46 +82,48 @@
             align-items: center;
             justify-content: center;
             text-align: center;
-            height: 100vh; /* Set full viewport height */
+            height: 10px 0; /* Adjusts the height of the container to full viewport height */
             padding: 5px;
+            margin: 0;
         }
 
         .map-container {
-            flex: 1;
+            flex: 1; /* Allow the map container to grow and fill space */
             position: relative;
-            z-index: 0;
-            height: 300px;
-            width: 100%;
-            overflow: hidden;
+            z-index: 0; /* Map should have a lower z-index than the footer */
+            height: 300px; /* Set your desired height */
+            width: 100%; /* Full width of the parent */
+            overflow: hidden; /* Hide any overflow if needed */
         }
 
         footer {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
+            display: flex;                  /* Use Flexbox */
+            justify-content: center;        /* Center horizontally */
+            align-items: center;            /* Center vertically */
+            text-align: center;             /* Center text in case of multiple lines */
             padding: 5px;
             background-color: #333;
             color: white;
-            width: 100%; /* Set width to 100% to avoid overflow */
+            width: 1500px;
+            width: 106%;
             height: 30px;
             position: fixed;
             bottom: 0;
             z-index: 10;
         }
 
-        .episode {
-            background: #fff;
-            margin: 20px 0;
-            padding: 15px;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        .episode { 
+            background: #fff; 
+            margin: 20px 0; 
+            padding: 15px; 
+            border-radius: 5px; 
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
         }
     </style>
 </head>
 <body>
     <header>
-        <img src="logo_white.png" alt="Logo">
+        <img src="logo_white.png">
     </header>
     
     <nav>
@@ -138,21 +139,12 @@
     </nav>
     
     <div class="content">
-        {{ .content }}
+        {{ .content}}
     </div>
 
     <footer>
-        <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
-            <a property="dct:title" rel="cc:attributionURL" href="https://blackboxgeo.github.io/blackbox.github.io">Blackbox Webpage</a> by 
-            <span property="cc:attributionName">Afonso Guerra</span> is licensed under 
-            <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">
-                Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
-                <img style="height:22px;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">
-                <img style="height:22px;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt="">
-                <img style="height:22px;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt="">
-                <img style="height:22px;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" alt="">
-            </a>
-        </p> 
+        <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://blackboxgeo.github.io/blackbox.github.io">Blackbox Webpage</a> by <span property="cc:attributionName">Afonso Guerra</span> is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" alt=""></a></p> 
     </footer>
 </body>
 </html>
+
