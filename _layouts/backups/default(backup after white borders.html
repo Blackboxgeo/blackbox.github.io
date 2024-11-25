@@ -31,10 +31,6 @@
             font-size: 2em;
         }
 
-        .h1people {
-            font-size: 2em;
-            text-align: left;
-        }
         h2 {
             font-family: Helvetica;
             font-size: 1.8em;
@@ -119,17 +115,6 @@
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
-        .circle-image {
-            width: 150px; /* Set width */
-            height: 125px; /* Set height */
-            border-radius: 50%; /* Makes it circular */
-            object-fit: cover; /* Ensures the image covers the entire circle */
-            display: block;        /* Make the image a block element */
-            margin: 0 auto;       /* Center horizontally */
-            max-width: 100%;      /* Responsive */
-            height: auto;         /* Maintain aspect ratio */
-        }
-
     </style>
 </head>
 <body>
@@ -150,10 +135,7 @@
     </nav>
     
     <div class="content">
-        <img src="/blackbox.github.io/assets/images/img/cargue.jpeg" alt="Carlos A. Guerra Image" class="circle-image"> </img>
-        <h1people>Carlos A. Guerra</h1people>
-        <sub>Researcher</sub>
-        <br>
+        {{ .content }}
     </div>
 
     <footer>
@@ -162,10 +144,10 @@
             <span property="cc:attributionName">Afonso Guerra</span> is licensed under 
             <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">
                 Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
-                <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">
-                <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt="">
-                <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt="">
-                <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" alt="">
+                <img style="height:22px;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">
+                <img style="height:22px;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt="">
+                <img style="height:22px;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt="">
+                <img style="height:22px;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" alt="">
             </a>
         </p> 
     </footer>
