@@ -8,15 +8,15 @@
     <title>Blackbox</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
     <style>
-        /* Global Box-Sizing to prevent padding from adding extra width/height */
+        /* Global Box-Sizing */
         *, *::before, *::after {
             box-sizing: border-box;
         }
 
         body {
             font-family: Arial, sans-serif;
-            margin: 0; /* Reset body's margin */
-            padding: 0; /* Reset body's padding */
+            margin: 0;
+            padding: 0;
             background-color: #f4f4f4;
             color: #333;
         }
@@ -24,7 +24,7 @@
         h1, h2 {
             margin: 0;
             padding: 0;
-            text-align: center; /* Ensure the text is centered */
+            text-align: center;
         }
 
         h1 {
@@ -41,12 +41,14 @@
             color: white;
             padding: 10px 0;
             text-align: center;
+            position: relative;
+            width: 100%; /* Ensures header stretches across the full width */
         }
 
         header img {
-            max-width: 100%;
-            height: auto;
-            background: #333;
+            width: auto; /* Ensure image width doesn't stretch */
+            max-width: 200px; /* Set a max width to keep it from stretching too much */
+            height: auto; /* Ensure aspect ratio is maintained */
         }
 
         nav {
@@ -79,7 +81,7 @@
             justify-content: center;
             text-align: center;
             height: 100vh; /* Full viewport height */
-            padding: 20px; /* Added padding for spacing */
+            padding: 20px;
         }
 
         .map-container {
@@ -99,7 +101,7 @@
             padding: 10px;
             background-color: #333;
             color: white;
-            width: 100%; /* Full width */
+            width: 100%;
             height: 30px;
             position: fixed;
             bottom: 0;
