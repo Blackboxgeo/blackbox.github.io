@@ -145,6 +145,3 @@ layout: default
 #### **Before 2015**
 
 {% include publications year="2014;2013;2012;2011;2007;2004" %}
-
-<br>
-<br>
