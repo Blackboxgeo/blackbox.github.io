@@ -8,26 +8,32 @@
     <title>Blackbox</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
     <style>
+        /* Global Box-Sizing */
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
         body {
             font-family: Arial, sans-serif;
-            margin: 0; /* Fixed margin */
-            padding: 5px; /* Adjusted padding */
+            margin: 0;
+            padding: 0;
             background-color: #f4f4f4;
             color: #333;
-            line-height: 1.5; /* Added for readability */
+        }
+
+        h1, h2 {
+            margin: 0;
+            padding: 0;
+            text-align: center;
         }
 
         h1 {
             font-size: 2em;
-            margin: 0;
-            padding: 0;
         }
 
         h2 {
-            font-family: Helvetica, sans-serif;
+            font-family: Helvetica;
             font-size: 1.8em;
-            margin: 0;
-            padding: 0;
         }
 
         header {
@@ -35,11 +41,14 @@
             color: white;
             padding: 10px 0;
             text-align: center;
+            position: relative;
+            width: 100%; /* Ensures header stretches across the full width */
         }
 
         header img {
-            width: 118px;
-            height: 49px;
+            width: auto; /* Ensure image width doesn't stretch */
+            max-width: 200px; /* Set a max width to keep it from stretching too much */
+            height: auto; /* Ensure aspect ratio is maintained */
         }
 
         nav {
@@ -71,9 +80,8 @@
             align-items: center;
             justify-content: center;
             text-align: center;
-            height: calc(100vh - 30px); /* Adjusted for footer */
-            padding: 5px;
-            margin: 0;
+            height: 100vh; /* Full viewport height */
+            padding: 20px;
         }
 
         .map-container {
@@ -90,7 +98,7 @@
             justify-content: center;
             align-items: center;
             text-align: center;
-            padding: 5px;
+            padding: 10px;
             background-color: #333;
             color: white;
             width: 100%;
@@ -100,14 +108,13 @@
             z-index: 10;
         }
 
-        .episode { 
-            background: #fff; 
-            margin: 20px 0; 
-            padding: 15px; 
-            border-radius: 5px; 
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+        .episode {
+            background: #fff;
+            margin: 20px 0;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
-
         .circle-image {
             width: 150px; /* Set width */
             height: 125px; /* Set height */

@@ -9,53 +9,64 @@ layout: default
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Soilid Science</title>
     <style>
+        /* Global Box-Sizing */
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
         body {
             font-family: Arial, sans-serif;
-            margin: 10;
-             padding: 5;
+            margin: 0;
+            padding: 0;
             background-color: #f4f4f4;
             color: #333;
         }
-        h1 {
-            font-size: 2em;
+
+        h1, h2 {
             margin: 0;
             padding: 0;
+            text-align: center;
         }
+
+        h1 {
+            font-size: 2em;
+        }
+
         h2 {
             font-family: Helvetica;
             font-size: 1.8em;
-            margin: 0;
-            padding: 0;
         }
+
         header {
             background-color: #333;
             color: white;
             padding: 10px 0;
             text-align: center;
-            overflow: hidden;
+            position: relative;
+            width: 100%; /* Ensures header stretches across the full width */
         }
-        header h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
+
         header img {
-            float: center;
-            width: 118px;
-            height: 49px;
-            background: #333;
+            width: auto; /* Ensure image width doesn't stretch */
+            max-width: 200px; /* Set a max width to keep it from stretching too much */
+            height: auto; /* Ensure aspect ratio is maintained */
         }
+
         nav {
             text-align: center;
             margin: 20px 0;
         }
+
         nav a {
             margin: 0 15px;
             text-decoration: none;
             color: #333;
         }
+
         nav a:hover {
             color: #007bff;
         }
+
         .content {
             max-width: 70%;
             margin: 0 auto;
@@ -63,30 +74,32 @@ layout: default
             background-color: white;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
         }
+
         .center-content {
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             text-align: center;
-            height: 10px 0; /* Adjusts the height of the container to full viewport height */
-            padding: 5px;
-            margin: 0;
+            height: 100vh; /* Full viewport height */
+            padding: 20px;
         }
+
         .map-container {
-            flex: 1; /* Allow the map container to grow and fill space */
+            flex: 1;
             position: relative;
-            z-index: 0; /* Map should have a lower z-index than the footer */
-            height: 300px; /* Set your desired height */
-            width: 100%; /* Full width of the parent */
-            overflow: hidden; /* Hide any overflow if needed */
+            z-index: 0;
+            height: 300px;
+            width: 100%;
+            overflow: hidden;
         }
+
         footer {
-            display: flex;                  /* Use Flexbox */
-            justify-content: center;        /* Center horizontally */
-            align-items: center;            /* Center vertically */
-            text-align: center;             /* Center text in case of multiple lines */
-            padding: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 10px;
             background-color: #333;
             color: white;
             width: 100%;
@@ -95,12 +108,13 @@ layout: default
             bottom: 0;
             z-index: 10;
         }
-        .episode { 
-            background: #fff; 
-            margin: 20px 0; 
-            padding: 15px; 
-            border-radius: 5px; 
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+
+        .episode {
+            background: #fff;
+            margin: 20px 0;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
         .episode h2 { 
             margin: 0; 
