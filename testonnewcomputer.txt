@@ -1,8 +1,12 @@
 To do:
 	1. Form:
 		1. Google ReCaptcha
+		2. Better design
 	2. Podcast
 		1. Add mp3's
+	3. People
+		1. Make a design like Podcast section
+		2. Add images buttons to cienciavitae and email
 
-IMPORTANT!!:
-Nothing for now
+IMPORTANT!!!:
+Correct white spaces
