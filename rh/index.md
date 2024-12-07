@@ -211,7 +211,6 @@
   - {% include publications year="2015" %}
 ### **Before 2015**
 - {% include publications year="2014;2013;2012;2011;2007;2004" %}
-
     <footer>
         <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
             <a property="dct:title" rel="cc:attributionURL" href="https://blackboxgeo.github.io/blackbox.github.io">Blackbox Webpage</a> by 
