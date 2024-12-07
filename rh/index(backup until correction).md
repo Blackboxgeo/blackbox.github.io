@@ -1,7 +1,125 @@
----
-title: Research Highligts
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blackbox Webpage">
+    <meta name="author" content="Carlos Guerra">
+    <title>Blackbox</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <style>
+        /* Global Box-Sizing */
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        h1, h2 {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2em;
+        }
+        h2 {
+            font-family: Helvetica;
+            font-size: 1.8em;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            position: relative;
+            width: 100%; /* Ensures header stretches across the full width */
+        }
+        header img {
+            width: auto; /* Ensure image width doesn't stretch */
+            max-width: 200px; /* Set a max width to keep it from stretching too much */
+            height: auto; /* Ensure aspect ratio is maintained */
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        nav a:hover {
+            color: #007bff;
+        }
+        .content {
+            max-width: 70%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .center-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            height: 100vh; /* Full viewport height */
+            padding: 20px;
+        }
+        .map-container {
+            flex: 1;
+            position: relative;
+            z-index: 0;
+            height: 300px;
+            width: 100%;
+            overflow: hidden;
+        }
+        footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            width: 100%;
+            height: 30px;
+            position: fixed;
+            bottom: 0;
+            z-index: 10;
+        }
+        .episode {
+            background: #fff;
+            margin: 20px 0;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo_white.png" alt="Logo">
+    </header>
+    <nav>
+        <a href="https://blackboxgeo.github.io/blackbox.github.io">Home</a>
+        <a href="https://blackboxgeo.github.io/blackbox.github.io/people">People</a>
+        <a href="https://blackboxgeo.github.io/blackbox.github.io/teaching">Teaching</a>
+        <a href="https://blackboxgeo.github.io/blackbox.github.io/rh">Research highlights</a>
+        <a href="https://blackboxgeo.github.io/blackbox.github.io/fp">Featured projects</a>
+        <a href="https://blackboxgeo.github.io/blackbox.github.io/consulting">Consulting</a>
+        <a href="https://blackboxgeo.github.io/blackbox.github.io/outreach">Outreach</a>
+        <a href="https://blackboxgeo.github.io/blackbox.github.io/podcast">Podcast</a>
+        <a href="mailto:carlos.guerra@uc.pt">Connect with us</a>
+    </nav>
+    <div class="content">
+        <div class="center-content">
             <h1><strong>Join a community of passionate researchers<br>pushing the boundaries of soil macroecology</strong></h1>
             <p>At Blackbox, you'll collaborate on groundbreaking projects, access cutting-edge resources, and contribute to research with global impact. Whether you're a student eager to make your mark or an established researcher looking to expand your horizons, Blackbox offers the opportunity to grow, innovate, and lead in this field.</p>
             <a href="/blackbox.github.io/people">
@@ -93,3 +211,18 @@ layout: default
   - {% include publications year="2015" %}
 ### **Before 2015**
 - {% include publications year="2014;2013;2012;2011;2007;2004" %}
+    <footer>
+        <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
+            <a property="dct:title" rel="cc:attributionURL" href="https://blackboxgeo.github.io/blackbox.github.io">Blackbox Webpage</a> by 
+            <span property="cc:attributionName">Afonso Guerra</span> is licensed under 
+            <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">
+                Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
+                <img style="height:22px;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">
+                <img style="height:22px;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt="">
+                <img style="height:22px;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt="">
+                <img style="height:22px;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" alt="">
+            </a>
+        </p> 
+    </footer>
+</body>
+</html>
