@@ -5,8 +5,7 @@ To do:
 	2. Podcast
 		1. Add mp3's
 	3. People
-		1. Make a design like Podcast section
-		2. Add images buttons to cienciavitae and email
+		1. Add images buttons to cienciavitae and email
 
 IMPORTANT!!!:
 Correct white spaces

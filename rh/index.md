@@ -2,37 +2,38 @@
 title: Research Highligts
 layout: default
 ---
-            <h1><strong>Join a community of passionate researchers<br>pushing the boundaries of soil macroecology</strong></h1>
-            <p>At Blackbox, you'll collaborate on groundbreaking projects, access cutting-edge resources, and contribute to research with global impact. Whether you're a student eager to make your mark or an established researcher looking to expand your horizons, Blackbox offers the opportunity to grow, innovate, and lead in this field.</p>
-            <a href="/blackbox.github.io/people">
-                <img src="/blackbox.github.io/assets/images/img/people_v2.svg" alt="People">
-            </a>
-            <a href="/blackbox.github.io/fp">
-                <img src="/blackbox.github.io/assets/images/img/feat_proj.svg" alt="Featured Projects">
-            </a>
-        </div>
-        <h2><strong>Collaborations across the world</strong></h2>
+
+<h1><strong>Join a community of passionate researchers<br>pushing the boundaries of soil macroecology</strong></h1>
+<p>At Blackbox, you'll collaborate on groundbreaking projects, access cutting-edge resources, and contribute to research with global impact. Whether you're a student eager to make your mark or an established researcher looking to expand your horizons, Blackbox offers the opportunity to grow, innovate, and lead in this field.</p>
+<a href="/blackbox.github.io/people">
+    <img src="/blackbox.github.io/assets/images/img/people_v2.svg" alt="People">
+</a>
+<a href="/blackbox.github.io/fp">
+    <img src="/blackbox.github.io/assets/images/img/feat_proj.svg" alt="Featured Projects">
+</a>
+</div>
+    <h2><strong>Collaborations across the world</strong></h2>
         <!-- Add a container div with a class for better control -->
-        <div class="map-container">
+    <div class="map-container">
             <!-- The map div where Leaflet will render the map -->
-            <div id="map" style="height: 500px;"></div>
-        </div>
+        <div id="map" style="height: 500px;"></div>
+    </div>
         <!-- Leaflet CSS and JS -->
-        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
-        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-        <script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script>
             // Initialize the map centered in the middle of the Atlantic Ocean with a zoomed-out view
-            var map = L.map('map').setView([14.5994, -28.6731], 3); // Coordinates in the middle of the Atlantic with a low zoom level (3)
+        var map = L.map('map').setView([14.5994, -28.6731], 3); // Coordinates in the middle of the Atlantic with a low zoom level (3)
             // Add OpenStreetMap tiles to the map
-            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-            }).addTo(map);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
             // Load GeoJSON data from an external file
-            fetch('assets/your-geojson-file.geojson')
-                .then(response => response.json())
-                .then(data => {
-                    L.geoJSON(data).addTo(map);
-                });
+        fetch('assets/your-geojson-file.geojson')
+            .then(response => response.json())
+            .then(data => {
+                L.geoJSON(data).addTo(map);
+        });
             // Add markers and popups
             var marker1 = L.marker([40.21119, -8.42946]).addTo(map);
             marker1.bindPopup("<b>Homebase</b><br>Universidade de Coimbra").openPopup();
