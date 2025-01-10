@@ -2,16 +2,7 @@
 title: Research Hightlights
 layout: default
 ---
-<div class="center-content">
-    <h1><strong>Join a community of passionate researchers<br>pushing the boundaries of soil macroecology</strong></h1>
-    <p>At Blackbox, you'll collaborate on groundbreaking projects, access cutting-edge resources, and contribute to research with global impact. Whether you're a student eager to make your mark or an established researcher looking to expand your horizons, Blackbox offers the opportunity to grow, innovate, and lead in this field.</p>
-    <a href="/blackbox.github.io/people">
-        <img src="/blackbox.github.io/assets/images/img/people_v2.svg" alt="People">
-    </a>
-    <a href="/blackbox.github.io/fp">
-        <img src="/blackbox.github.io/assets/images/img/feat_proj.svg" alt="Featured Projects">
-    </a>
-</div>
+<div class=center-content><h1><strong>Join a community of passionate researchers<br>pushing the boundaries of soil macroecology</strong></h1><p>At Blackbox, you'll collaborate on groundbreaking projects, access cutting-edge resources, and contribute to research with global impact. Whether you're a student eager to make your mark or an established researcher looking to expand your horizons, Blackbox offers the opportunity to grow, innovate, and lead in this field.</p><a href=/blackbox.github.io/people><img alt=People src=/blackbox.github.io/assets/images/img/people_v2.svg> </a><a href=/blackbox.github.io/fp><img alt="Featured Projects"src=/blackbox.github.io/assets/images/img/feat_proj.svg></a></div>
 
 <br>
 
