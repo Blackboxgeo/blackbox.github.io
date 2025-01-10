@@ -2,9 +2,19 @@
 title: Research Hightlights
 layout: default
 ---
-<div class="center-content">
+<!-- <div class="center-content">
     <h1>Join a community of passionate researchers pushing the boundaries of soil macroecology</h1>
     <p>At Blackbox, you’ll collaborate on groundbreaking projects, access cutting-edge resources, and contribute to research with global impact. Whether you’re a student eager to make your mark or an established researcher looking to expand your horizons, Blackbox offers the opportunity to grow, innovate, and lead in this field.</p>
+    <div class="content"> -->
+<div class="center-content">
+  <strong><h1>Join a community of passionate researchers pushing the boundaries of soil macroecology</h1></strong>
+  <p>At Blackbox, you’ll collaborate on groundbreaking projects, access cutting-edge resources, and contribute to research with global impact. Whether you’re a student eager to make your mark or an established researcher looking to expand your horizons, Blackbox offers the opportunity to grow, innovate, and lead in this field.</p>
+            <br>
+            <a href="/blackbox.github.io/people">
+                <img src="/blackbox.github.io/assets/images/img/join_button.svg" alt="Get it on Join">
+            </a>
+        </div>
+    </div>
     <a href="/blackbox.github.io/people">
         <img alt="People" src="/blackbox.github.io/assets/images/img/people_v2.svg">
     </a>
@@ -17,6 +27,7 @@ layout: default
 <br>
 
 ## **Colaborations across the world**
+<br>
 
 <!-- Add a container div with a class for better control -->
 <div class="map-container">
