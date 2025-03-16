@@ -37,14 +37,14 @@ What SoilReCon Does:
 
 * **Supports Healthy Ecosystems**: By restoring and conserving soils, SoilReCon helps support healthier ecosystems, better water quality, more resilient agriculture, and a stable climate.
 
-The Goal:
+**The Goal:**
 
-The main goal of **SoilReCon** is to improve and protect the health of soils so they can continue to support plants, animals, and humans in a sustainable way.
+**SoilReCon's** main goal is to improve and protect the health of soils so they can continue to support plants, animals, and humans in a sustainable way.
 Why It Matters:
 
 Healthy soils are essential for growing food, storing carbon, filtering water, and supporting wildlife. **SoilReCon** aims to ensure that soils stay healthy and productive, now and in the future.
 
-In short, **SoilReCon** is all about fixing damaged soils and protecting them from further harm to keep our environment and food systems healthy and sustainable.
+**SoilReCon's** main goal is all about fixing damaged soils and protecting them from further harm to keep our environment and food systems healthy and sustainable.
 <br>
 <br>
 <br>
@@ -64,7 +64,7 @@ The Goal:
 
 The goal of **SOLO** is to make sure Europe’s soils stay healthy so they can continue to support life, agriculture, and the environment.
 
-In short, **SOLO** is all about understanding and improving soil health to ensure a better future for everyone in Europe.
+**SOLO's** main goal is all about understanding and improving soil health to ensure a better future for everyone in Europe.
 <br>
 <br>
 <br>
