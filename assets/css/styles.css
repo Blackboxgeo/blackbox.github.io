@@ -97,6 +97,7 @@ img {
 }
 
 .navbar {
+    position: static;
     background: #000;
     padding: 20px;
 }
@@ -109,6 +110,7 @@ img {
 
 .navbar .main-menu ul {
     display: flex;
+    position-area: top;
 }
 
 .navbar ul li a {
