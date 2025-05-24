@@ -21,6 +21,13 @@ h2 {
     padding: 0;
 }
 
+h3 {
+    font-family: Helvetica;
+    font-size: 45.9px;
+    margin: 0;
+    padding: 0;
+}
+
 p {
     background-color: #f4f4f4;
     color: #333;
@@ -213,4 +220,8 @@ img {
     padding: 15px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.play-button {
+    size: 20px 40px;
 }
