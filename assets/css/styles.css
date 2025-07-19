@@ -64,6 +64,13 @@ header img {
     padding: 0 15px;
 }
 
+.container-navbar {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+    position: horizontal
+}
+
 .map-container {
     flex: 1; /* Allow the map container to grow and fill space */
     position: relative;
