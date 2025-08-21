@@ -109,11 +109,7 @@
       <p>Have questions or suggestions? Email us at <a href="mailto:carlos.guerra@fl.uc.pt">carlos.guerra@fl.uc.pt</a>.</p>
     </section>
   </main>
-
-  <footer>
-    <p>© 2025 Soilid Science</p>
-  </footer>
-
+  
   <script>
     const buttons = document.querySelectorAll('.play-button');
     const audios = document.querySelectorAll('audio');
@@ -125,6 +121,8 @@
           audios.forEach(a => a.pause()); // Stop all others
           audio.play();
           btn.textContent = 'Pause';
+          var buttons = document.getElementById("button");
+          buttons.innerHTML = '<img src="assets\images\img\pause-button.png" />';
         } else {
           audio.pause();
           btn.textContent = 'Play';
@@ -133,6 +131,8 @@
 
       audios[index].addEventListener('ended', () => {
         btn.textContent = 'Play';
+        var buttons = document.getElementById("button");
+        buttons.innerHTML = '<img src="assets\images\img\play-button.png" />';
       });
     });
   </script>
