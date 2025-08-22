@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Research Highlights</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+     <link
+      rel="stylesheet"
+      href="blackbox.github.io/assets/css/styles.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" href="blackbox.github.io/assets/image/img/icon.ico" type="image/x-icon">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo">
+        <a href="index.html">
+          <img src="blackbox.github.io/assets/images/img/logo.png" alt="logo">
+        </a>
+      </div>
+      
+      <div class="main-menu">
+        <ul>
+          <li><a href="https://blackboxgeo.github.io/blackbox.github.io">Home</a></li>
+
+          <li><a href="/blackbox.github.io/people">People</a></li>
+
+          <li class="dropdown">
+            <a href="#" class="dropbtn">Carrer</a>
+            <div class="dropdown-content">
+              <a href="/blackbox.github.io/teaching">Teaching</a>
+              <a href="/blackbox.github.io/rh">Research Highlights</a>
+              <a href="/blackbox.github.io/fp">Featured Projects</a>
+            </div>
+          </li>
+
+          <li><a href="/blackbox.github.io/consulting">Consulting</a></li>
+
+          <li><a href="/blackbox.github.io/outreach">Outreach</a></li>
+
+          <li><a href="/blackbox.github.io/podcast">Podcast</a></li>
+
+          <li>
+            <a class="btn" href="mailto:carlos.guerra@fl.uc.pt">
+              <i class="fa-solid fa-phone"></i> Contact Us
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="text">
+    <div class="container">
+      <div class="text-content">
+            <div class="body-general">
+        <div class="center-content">
+            <strong><h1>Join a community of passionate researchers pushing the boundaries of soil macroecology</h1></strong>
+            <p>At Blackbox, you’ll collaborate on groundbreaking projects, access cutting-edge resources, and contribute to research with global impact. Whether you’re a student eager to make your mark or an established researcher looking to expand your horizons, Blackbox offers the opportunity to grow, innovate, and lead in this field.</p>
+            <a href="/blackbox.github.io/people">
+                <img alt="People" src="/blackbox.github.io/assets/images/img/people_v2.svg">
+            </a>
+            <a href="/blackbox.github.io/fp">
+                <img alt="Featured Projects" src="/blackbox.github.io/assets/images/img/feat_proj.svg">
+            </a>
+        </div>
+
+
+        <br>
+
+        ## **Colaborations across the world**
+        <br>
+
+        <!-- Add a container div with a class for better control -->
+        <div class="map-container">
+          <!-- The map div where Leaflet will render the map -->
+          <div id="map" style="height: 500px;"></div>
+        </div>
+
+        <!-- Leaflet CSS and JS -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+        <script>
+          // Initialize the map centered in the middle of the Atlantic Ocean with a zoomed-out view
+          var map = L.map('map').setView([14.5994, -28.6731], 3); // Coordinates in the middle of the Atlantic with a low zoom level (3)
+
+          // Add OpenStreetMap tiles to the map
+          L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          }).addTo(map);
+
+          // Load GeoJSON data from an external file
+          fetch('assets/your-geojson-file.geojson')
+            .then(response => response.json())
+            .then(data => {
+              L.geoJSON(data).addTo(map);
+            });
+
+          // Add markers and popups
+          var marker1 = L.marker([40.21119, -8.42946]).addTo(map);
+          marker1.bindPopup("<b>Homebase</b><br>Universidade de Coimbra").openPopup();
+
+          var marker2 = L.marker([38.56667, -7.9]).addTo(map);
+          marker2.bindPopup("<b>Teresa Pinto Correia</b><br>Universidade de Évora").openPopup();
+
+          var marker3 = L.marker([37.38283, -5.97317]).addTo(map);
+          marker3.bindPopup("<b>Manuel Delgado-Baquerizo</b><br>Instituto de Recursos Naturales y Agrobiología de Sevilla").openPopup();
+
+          var marker4 = L.marker([24.266906, 45.107849]).addTo(map);
+          marker4.bindPopup("<b>Fernando Maestre</b><br>King Abdullah University of Science and Technology").openPopup();
+
+          var marker5 = L.marker([58.38062, 26.72509]).addTo(map);
+          marker5.bindPopup("<b>Leho Tedersoo</b><br>Tartu University").openPopup();
+
+          var marker6 = L.marker([41.55032, -8.42005]).addTo(map);
+          marker6.bindPopup("<b>Sofia Costa</b><br>University of Minho").openPopup();
+
+          var marker7 = L.marker([41.69323, -8.83287]).addTo(map);
+          marker7.bindPopup("<b>Susana Mendes</b><br>Polytechnic Institute of Viana do Castelo").openPopup();
+
+          var marker8 = L.marker([51.33962, 12.37129]).addTo(map);
+          marker8.bindPopup("<b>Nico Eisenhauer</b><br>German Center for Integrative Biodiversity Research").openPopup();
+
+          var marker9 = L.marker([41.38879, 2.15899]).addTo(map);
+          marker9.bindPopup("<b>Salvador Lladó</b><br>University of Barcelona").openPopup();
+
+          var marker10 = L.marker([45.8148, 8.61294]).addTo(map);
+          marker10.bindPopup("<b>Arwyn Jones</b><br>Joint Research Center").openPopup();
+
+          var marker11 = L.marker([51.97, 5.66667]).addTo(map);
+          marker11.bindPopup("<b>Wim van der Putten</b><br>Nederlands Instituut voor Ecologie").openPopup();
+
+          var marker12 = L.marker([-33.8559799094, 151.20666584]).addTo(map);
+          marker12.bindPopup("<b>Brajesh K. Singh</b><br>Western Sydney University").openPopup();
+
+          var marker13 = L.marker([41.35481, -8.7434]).addTo(map);
+          marker13.bindPopup("<b>Angela Lomba</b><br>Centro de Investigação em Biodiversidade e Recursos Genéticos").openPopup();
+
+          var marker14 = L.marker([-31.4135, -64.18105]).addTo(map);
+          marker14.bindPopup("<b>Pedro Jaureguiberry</b><br>Instituto Multidisciplinario de Biología Vegetal").openPopup();
+
+          var marker15 = L.marker([38.71667, -9.13333]).addTo(map);
+          marker15.bindPopup("<b>Maria São Luis Centeno</b><br>Direção-Geral de Agricultura e Desenvolvimento Rural").openPopup();
+
+          var marker16 = L.marker([-23.5475, -46.63611]).addTo(map);
+          marker16.bindPopup("<b>George Brown</b><br>Brazilian Agricultural Research Corporation").openPopup();
+
+          var marker17 = L.marker([-34.90328, -56.18816]).addTo(map);
+          marker17.bindPopup("<b>María Revetria</b><br>Soil Microbiology Laboratory").openPopup();
+
+        </script>
+
+        <br>
+        <br>
+
+        <h2><strong>Publications</strong></h2>
+
+        <p><em>2024</em></p>
+        {% include publications year="2024" %}
+
+        <p><em>2023</em></p>
+        {% include publications year="2023" %}
+
+        <p><em>2022</em></p>
+        {% include publications year="2022" %}
+
+        <p><em>2021</em></p>
+        {% include publications year="2021" %}
+
+        <p><em>2020</em></p>
+        {% include publications year="2020" %}
+
+        <p><em>2019</em></p>
+        {% include publications year="2019" %}
+
+        <p><em>2018</em></p>
+        {% include publications year="2018" %}
+
+        <p><em>2017</em></p>
+        {% include publications year="2017" %}
+
+        <p><em>2016</em></p>
+        {% include publications year="2016" %}
+
+        <p><em>2015</em></p>
+        {% include publications year="2015" %}
+
+        <h4><strong>Before 2015</strong></h4>
+        {% include publications year="2014;2013;2012;2011;2007;2004" %}
+
+        <br>
+        <br>
+                    </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
