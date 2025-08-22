@@ -1,0 +1,17 @@
+{% assign data_file = "publications" | append: include.year %}
+{% assign publications = site.data[data_file] %}
+
+{% if publications %}
+  <ul>
+  {% for pub in publications %}
+    <li>
+      {% if pub.title %}<strong>{{ pub.title }}</strong>{% endif %}
+      {% if pub.authors %} – {{ pub.authors }}{% endif %}
+      {% if pub.venue %} – <em>{{ pub.venue }}</em>{% endif %}
+      {% if pub.year %} ({{ pub.year }}){% endif %}
+    </li>
+  {% endfor %}
+  </ul>
+{% else %}
+  <p><em>No publications found for {{ include.year }}</em></p>
+{% endif %}
