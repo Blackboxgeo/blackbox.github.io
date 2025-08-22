@@ -10,51 +10,51 @@ gem 'github-pages', group: :jekyll_plugins
 # #
 # # This will help ensure the proper Jekyll version is running.
 # # Happy Jekylling!
-# #gem "jekyll", "~> 3.10.0"
+gem "jekyll", "~> 3.10.0"
 # # This is the default theme for new Jekyll sites. You may change this to anything you like.
 # gem "minima", "~> 2.5"
 # # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # # uncomment the line below. To upgrade, run `bundle update github-pages`.
-# gem "github-pages"#, group: :jekyll_plugins
-# #bundle update github-pages
+gem "github-pages"#, group: :jekyll_plugins
+bundle update github-pages
 # # If you have any plugins, put them here!
-# group :jekyll_plugins do
-# #  gem "github-pages", "~> 232"
-#   # gem "jekyll-feed", "~> 0.12"
-#   # gem "jekyll-sass-converter", "~> 1.5.2"
-#   # gem "mercenary", "~> 0.3.3"
-#   # gem "rouge", "~> 3.30.0"
-#   # gem "terminal-table", "~> 1.4"
-#   # gem "public_suffix", "~> 3.0"
-#   # gem "concurrent-ruby", "~> 1.3.4"
-#   # gem "sass-embedded", "~> 1.69.5"
-#   # gem "rexml", "~> 3.3.6"
-#   # gem "unicode-display_width", "~> 2.5.0"
-#   # gem "google-protobuf", "~> 3.25.4"
-#   # gem "rake", "~> 13.2.1"
-#   # gem "ffi", "~> 1.17.0"
-#   # gem "github-pages-health-check", "~> 1.18.2"
-#   gem "jekyll-feed", "~> 0.12"
-#   gem "jekyll-sass-converter", "~> 1.5.2"
-#   gem "mercenary", "~> 0.3.3"
-#   gem "rouge", "~> 3.30.0"
-#   gem "terminal-table", "~> 1.6.0"
-#   gem "public_suffix", "~> 3.1.1"
-#   gem "concurrent-ruby", "~> 1.3.4"
-#   gem "sass-embedded", "~> 1.69.5"
-#   gem "rexml", "~> 3.3.6"
-#   gem "unicode-display_width", "~> 2.5.0"
-#   gem "google-protobuf", "~> 3.25.4"
-#   gem "rake", "~> 13.2.1"
-#   gem "ffi", "~> 1.17.0"
-#   gem "github-pages-health-check", "~> 1.18.2"
-#   gem "faraday", "~> 2.11.0"
-#   gem "activesupport", "~> 7.1.4"
-#   gem "faraday-net_http", "~> 3.3.0"
-#   gem "logger", "~> 1.6.1"
-#   gem "minitest", "~> 5.25.1"
-#   gem "uri", "~> 0.13.1"
-# end
+group :jekyll_plugins do
+  gem "github-pages", "~> 232"
+  gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-sass-converter", "~> 1.5.2"
+  gem "mercenary", "~> 0.3.3"
+  gem "rouge", "~> 3.30.0"
+  gem "terminal-table", "~> 1.4"
+  gem "public_suffix", "~> 3.0"
+  gem "concurrent-ruby", "~> 1.3.4"
+  gem "sass-embedded", "~> 1.69.5"
+  gem "rexml", "~> 3.3.6"
+  gem "unicode-display_width", "~> 2.5.0"
+  gem "google-protobuf", "~> 3.25.4"
+  gem "rake", "~> 13.2.1"
+  gem "ffi", "~> 1.17.0"
+  gem "github-pages-health-check", "~> 1.18.2" #until here
+  gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-sass-converter", "~> 1.5.2"
+  gem "mercenary", "~> 0.3.3"
+  gem "rouge", "~> 3.30.0"
+  gem "terminal-table", "~> 1.6.0"
+  gem "public_suffix", "~> 3.1.1"
+  gem "concurrent-ruby", "~> 1.3.4"
+  gem "sass-embedded", "~> 1.69.5"
+  gem "rexml", "~> 3.3.6"
+  gem "unicode-display_width", "~> 2.5.0"
+  gem "google-protobuf", "~> 3.25.4"
+  gem "rake", "~> 13.2.1"
+  gem "ffi", "~> 1.17.0"
+  gem "github-pages-health-check", "~> 1.18.2"
+  gem "faraday", "~> 2.11.0"
+  gem "activesupport", "~> 7.1.4"
+  gem "faraday-net_http", "~> 3.3.0"
+  gem "logger", "~> 1.6.1"
+  gem "minitest", "~> 5.25.1"
+  gem "uri", "~> 0.13.1"
+end
 
 # # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # # and associated library.
