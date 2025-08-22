@@ -19,21 +19,6 @@ gem "github-pages"#, group: :jekyll_plugins
 # bundle update github-pages
 # # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "github-pages", "~> 232"
-  gem "jekyll-feed", "~> 0.12"
-  gem "jekyll-sass-converter", "~> 1.5.2"
-  gem "mercenary", "~> 0.3.3"
-  gem "rouge", "~> 3.30.0"
-  gem "terminal-table", "~> 1.4"
-  gem "public_suffix", "~> 3.0"
-  gem "concurrent-ruby", "~> 1.3.4"
-  gem "sass-embedded", "~> 1.69.5"
-  gem "rexml", "~> 3.3.6"
-  gem "unicode-display_width", "~> 2.5.0"
-  gem "google-protobuf", "~> 3.25.4"
-  gem "rake", "~> 13.2.1"
-  gem "ffi", "~> 1.17.0"
-  gem "github-pages-health-check", "~> 1.18.2" #until here
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-sass-converter", "~> 1.5.2"
   gem "mercenary", "~> 0.3.3"
