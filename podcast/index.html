@@ -1,22 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Podcast</title>
-  <link rel="stylesheet" href="/blackbox.github.io/assets/css/styles.css" />
-  <link rel="shortcut icon" href="images/icon.ico" type="image/x-icon">
-  <link rel="preconnect" href="https://fonts.googleapis.com"/>
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet"/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" crossorigin="anonymous"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/blackbox.github.io/assets/css/styles.css">
+    <link rel="shortcut icon" href="/blackbox.github.io/assets/images/icon.ico" type="image/x-icon">
 </head>
-<body class="body-general">
+<body>
   <nav class="navbar">
     <div class="container">
       <div class="logo">
         <a href="index.html">
-          <img src="/blackbox.github.io/assets/images/img/logo.png" alt="logo">
+          <img src="/blackbox.github.io/assets/images/logo.png" alt="logo">
         </a>
       </div>
       
@@ -51,90 +60,100 @@
     </div>
   </nav>
 
-  <main class="container-sm">
-    <section>
-      <h1>Solid Science</h1>
-      <p>The podcast about science and people with a certain focus on soils.</p>
-    </section>
+  <section class="text">
+    <div class="container">
+      <div class="text-content">
+            <div class="body-general">
+              <main class="container-sm">
+                <section>
+                  <h1>Solid Science</h1>
+                  <p>The podcast about science and people with a certain focus on soils.</p>
+                </section>
 
-    <br>
+                <br>
 
-    <section>
-      <h2>Episodes</h2>
+                <section>
+                  <h2>Episodes</h2>
 
-      <div class="episode">
-        <h3>Episode 1: Women in Soil Ecology</h3>
-        <p><strong>Release Date:</strong> 2023-04</p>
-        <audio src="https://solidscience.podcaster.de/solidscience/media/-01_Women_in_soil_ecology(1).mp3"></audio>
-        <button class="play-button">Play</button>
-        <p><em>We invited Franciska de Vries to talk with us about "Women in Soil Ecology".</em></p>
+                  <div class="episode">
+                    <h3>Episode 1: Women in Soil Ecology</h3>
+                    <p><strong>Release Date:</strong> 2023-04</p>
+                    <audio src="https://solidscience.podcaster.de/solidscience/media/-01_Women_in_soil_ecology(1).mp3"></audio>
+                    <button class="play-button">Play</button>
+                    <p><em>We invited Franciska de Vries to talk with us about "Women in Soil Ecology".</em></p>
+                  </div>
+
+                  <div class="episode">
+                    <h3>Episode 2: The Lost Art of Taxonomy</h3>
+                    <p><strong>Release Date:</strong> 2023-04</p>
+                    <audio src="https://solidscience.podcaster.de/solidscience/media/-01_Women_in_soil_ecology(1).mp3"></audio>
+                    <button class="play-button">Play</button>
+                    <p><em>We invited Zoe Lindo and Toke Høye to talk about taxonomy and machine learning approaches.</em></p>
+                  </div>
+
+                  <div class="episode">
+                    <h3>Episode 3: Ecological Theory across Disciplines</h3>
+                    <p><strong>Release Date:</strong> 2023-05</p>
+                    <audio src="https://solidscience.podcaster.de/solidscience/media/-01_Women_in_soil_ecology(1).mp3"></audio>
+                    <button class="play-button">Play</button>
+                    <p><em>We invited Maddy Thakur to discuss ecological theory across disciplines.</em></p>
+                  </div>
+
+                  <div class="episode">
+                    <h3>Episode 4: Synthesizing Zombie Data</h3>
+                    <p><strong>Release Date:</strong> 2023-06</p>
+                    <audio src="https://solidscience.podcaster.de/solidscience/media/-01_Women_in_soil_ecology(1).mp3"></audio>
+                    <button class="play-button">Play</button>
+                    <p><em>Jérome Mathieu joins us to talk about synthesizing zombie data in soil fauna databases.</em></p>
+                  </div>
+                </section>
+
+                <section>
+                  <h2>Subscribe</h2>
+                  <p>Stay updated on the latest episodes!</p>
+                  <div class="subscribe">
+                    <a href="https://open.spotify.com/show/5ua24CqqEp2DS9mm2HS2fD?si=WSoRQLL5Qh-UWvM146DqPA">Spotify</a><br>
+                    <a href="https://solidscience.podcaster.de/solidscience.rss">RSS Feed</a>
+                  </div>
+                </section>
+
+                <section>
+                  <h2>Contact</h2>
+                  <p>Have questions or suggestions? Email us at <a href="mailto:carlos.guerra@fl.uc.pt">carlos.guerra@fl.uc.pt</a>.</p>
+                </section>
+              </main>
+              
+              <script>
+                const buttons = document.querySelectorAll('.play-button');
+                const audios = document.querySelectorAll('audio');
+
+                buttons.forEach((btn, index) => {
+                  btn.addEventListener('click', () => {
+                    const audio = audios[index];
+                    if (audio.paused) {
+                      audios.forEach(a => a.pause()); // Stop all others
+                      audio.play();
+                      btn.textContent = 'Pause';
+                      var buttons = document.getElementById("button");
+                      buttons.innerHTML = '<img src="assets\images\img\pause-button.png" />';
+                    } else {
+                      audio.pause();
+                      btn.textContent = 'Play';
+                    }
+                  });
+
+                  audios[index].addEventListener('ended', () => {
+                    btn.textContent = 'Play';
+                    var buttons = document.getElementById("button");
+                    buttons.innerHTML = '<img src="assets\images\img\play-button.png" />';
+                  });
+                });
+              </script>
+            </div>
       </div>
+    </div>
+  </section>
 
-      <div class="episode">
-        <h3>Episode 2: The Lost Art of Taxonomy</h3>
-        <p><strong>Release Date:</strong> 2023-04</p>
-        <audio src="https://solidscience.podcaster.de/solidscience/media/-01_Women_in_soil_ecology(1).mp3"></audio>
-        <button class="play-button">Play</button>
-        <p><em>We invited Zoe Lindo and Toke Høye to talk about taxonomy and machine learning approaches.</em></p>
-      </div>
-
-      <div class="episode">
-        <h3>Episode 3: Ecological Theory across Disciplines</h3>
-        <p><strong>Release Date:</strong> 2023-05</p>
-        <audio src="https://solidscience.podcaster.de/solidscience/media/-01_Women_in_soil_ecology(1).mp3"></audio>
-        <button class="play-button">Play</button>
-        <p><em>We invited Maddy Thakur to discuss ecological theory across disciplines.</em></p>
-      </div>
-
-      <div class="episode">
-        <h3>Episode 4: Synthesizing Zombie Data</h3>
-        <p><strong>Release Date:</strong> 2023-06</p>
-        <audio src="https://solidscience.podcaster.de/solidscience/media/-01_Women_in_soil_ecology(1).mp3"></audio>
-        <button class="play-button">Play</button>
-        <p><em>Jérome Mathieu joins us to talk about synthesizing zombie data in soil fauna databases.</em></p>
-      </div>
-    </section>
-
-    <section>
-      <h2>Subscribe</h2>
-      <p>Stay updated on the latest episodes!</p>
-      <div class="subscribe">
-        <a href="https://open.spotify.com/show/5ua24CqqEp2DS9mm2HS2fD?si=WSoRQLL5Qh-UWvM146DqPA">Spotify</a><br>
-        <a href="https://solidscience.podcaster.de/solidscience.rss">RSS Feed</a>
-      </div>
-    </section>
-
-    <section>
-      <h2>Contact</h2>
-      <p>Have questions or suggestions? Email us at <a href="mailto:carlos.guerra@fl.uc.pt">carlos.guerra@fl.uc.pt</a>.</p>
-    </section>
-  </main>
-  
-  <script>
-    const buttons = document.querySelectorAll('.play-button');
-    const audios = document.querySelectorAll('audio');
-
-    buttons.forEach((btn, index) => {
-      btn.addEventListener('click', () => {
-        const audio = audios[index];
-        if (audio.paused) {
-          audios.forEach(a => a.pause()); // Stop all others
-          audio.play();
-          btn.textContent = 'Pause';
-          var buttons = document.getElementById("button");
-          buttons.innerHTML = '<img src="assets\images\img\pause-button.png" />';
-        } else {
-          audio.pause();
-          btn.textContent = 'Play';
-        }
-      });
-
-      audios[index].addEventListener('ended', () => {
-        btn.textContent = 'Play';
-        var buttons = document.getElementById("button");
-        buttons.innerHTML = '<img src="assets\images\img\play-button.png" />';
-      });
-    });
-  </script>
+  <script src="js/main.js"></script>
 </body>
 </html>
