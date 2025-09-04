@@ -107,7 +107,7 @@ footer {
 }
 
 :root {
-    --primary: #4891ff;
+    --primary: #4287f5;
     --light: #f4f4f6;
     --dark: #111;
 }
@@ -134,7 +134,7 @@ img {
 
 .navbar {
     position: static;
-    background: #000;
+    background: #4c3520;
     padding: 20px;
 }
 
