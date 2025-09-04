@@ -6,6 +6,11 @@
     line-height: 1;
     margin-top: 20px;
     background: #fff;
+
+.section-spacing {
+    margin-bottom: 3em;
+}
+
 }
 
 h1 {
