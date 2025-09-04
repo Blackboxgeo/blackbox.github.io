@@ -1,0 +1,18 @@
+current directory: /home/uftw/blackbox.github.io/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+/snap/ruby/426/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/uftw/blackbox.github.io/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250904-19548-bji8ec sitelibdir\=./.gem.20250904-19548-bji8ec clean
+
+current directory: /home/uftw/blackbox.github.io/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250904-19548-bji8ec sitelibdir\=./.gem.20250904-19548-bji8ec
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/uftw/blackbox.github.io/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250904-19548-bji8ec sitelibdir\=./.gem.20250904-19548-bji8ec install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20250904-19548-bji8ec/racc
+
+current directory: /home/uftw/blackbox.github.io/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250904-19548-bji8ec sitelibdir\=./.gem.20250904-19548-bji8ec clean

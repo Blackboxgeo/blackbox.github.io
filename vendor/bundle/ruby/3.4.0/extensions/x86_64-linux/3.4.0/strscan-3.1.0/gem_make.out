@@ -1,0 +1,20 @@
+current directory: /home/uftw/blackbox.github.io/vendor/bundle/ruby/3.4.0/gems/strscan-3.1.0/ext/strscan
+/snap/ruby/426/bin/ruby extconf.rb
+checking for onig_region_memsize() in ruby.h... yes
+checking for rb_reg_onig_match() in ruby.h... yes
+creating Makefile
+
+current directory: /home/uftw/blackbox.github.io/vendor/bundle/ruby/3.4.0/gems/strscan-3.1.0/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20250904-19548-2b9ytm sitelibdir\=./.gem.20250904-19548-2b9ytm clean
+
+current directory: /home/uftw/blackbox.github.io/vendor/bundle/ruby/3.4.0/gems/strscan-3.1.0/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20250904-19548-2b9ytm sitelibdir\=./.gem.20250904-19548-2b9ytm
+compiling strscan.c
+linking shared-object strscan.so
+
+current directory: /home/uftw/blackbox.github.io/vendor/bundle/ruby/3.4.0/gems/strscan-3.1.0/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20250904-19548-2b9ytm sitelibdir\=./.gem.20250904-19548-2b9ytm install
+/usr/bin/install -c -m 0755 strscan.so ./.gem.20250904-19548-2b9ytm
+
+current directory: /home/uftw/blackbox.github.io/vendor/bundle/ruby/3.4.0/gems/strscan-3.1.0/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20250904-19548-2b9ytm sitelibdir\=./.gem.20250904-19548-2b9ytm clean
