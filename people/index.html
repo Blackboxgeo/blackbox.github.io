@@ -18,6 +18,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="/blackbox.github.io/assets/css/styles.css">
+    <link rel="stylesheet" href="/blackbox.github.io/assets/css/searchengine.css">
     <link rel="shortcut icon" href="/blackbox.github.io/assets/images/icon.ico" type="image/x-icon">
 </head>
 <body>
@@ -64,13 +65,12 @@
     <div class="container">
       <div class="text-content">
             <div class="body-general">
-                <br>
-                <img src="/blackbox.github.io/assets/images/img/cargue.jpg" alt="Carlos A. Guerra Image" class="circle-image">
-                <br>
-                <h1>Carlos A. Guerra</h1>
-                <sub>Researcher</sub>
-                <br>
-                <a href="mailto:carlos.guerra@uc.pt">E-MAIL</a>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <a href="https://www.cienciavitae.pt/portal/1814-97DC-A57A">CIENCIAVITAE</a>
+                <input type="text" id="artInput" onkeyup="artFunction()" placeholder="name or level" title="People search">
+                <div class="tablesearch">
+                <table id="artTable">
+                <tr class="header">
+                <th style="width:50%">Name</th>
+                <th style="width:50%">Level</th>
             </div>
       </div>
     </div>
