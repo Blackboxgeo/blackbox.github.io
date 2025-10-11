@@ -23,10 +23,6 @@ body,#artInput{text-align: center;}
   border: 1px solid #ddd;
   font-size: 18px;
   margin-bottom:40px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 #artTable th, #artTable td {
   text-align: left;
